@@ -18,6 +18,8 @@ import lombok.Setter;
 @AllArgsConstructor //全てのクラスフィールドを引数にもつ引数ありコンストラクタを自動生成する(Lombok)
 public class ReportView {
 
+    public static Object r;
+
     /**
      * id
      */
@@ -52,4 +54,9 @@ public class ReportView {
      * 更新日時
      */
     private LocalDateTime updatedAt;
+
+    /**
+     * いいね数
+     */
+    private Integer goodFlag;
 }

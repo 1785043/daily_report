@@ -128,11 +128,15 @@ table#report_list .report_date {
 }
 
 table#report_list .report_title {
-    width: 37%;
+    width: 30%;
 }
 
 table#report_list .report_action {
-    width: 13%;
+    width: 10%;
+}
+
+table#report_list .report_good {
+    width: 10%
 }
 
 pre {
@@ -161,4 +165,9 @@ h3 {
     margin-bottom: 15px;
     color: #721c24;
     background-color: #f8d7da;
+}
+
+#good_image {
+    width: 20%;
+    height: 50%;
 }
